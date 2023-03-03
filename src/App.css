@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+:root {
+  --light-1: #ffffff;
+  --light-2: #a6a4a4;
+  --dark-1: #040405;
+  --dark-2: #0a0d12;
+  --primary: #a28a52;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.layout {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template: 10% 35% 40% / minmax(0, 1fr);
+  gap: 2em;
+  background-color: var(--dark-1);
+  overflow: hidden;
+  padding: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex-row-between {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-col-between {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  margin: 0;
+  color: var(--light-1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sub-title {
+  margin: 0;
+  color: var(--light-2);
+}
+
+.main-poster {
+  background-color: var(--dark-2);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.img-poster {
+  height: 100%;
+}
+
+.recent-posters {
+  gap: 1em;
+  height: fit-content;
+}
+
+.one-poster {
+  width: 10rem;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid var(--light-2);
+  border-radius: 0.5rem;
+}
+
+.carousel {
+  gap: 3em;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.carousel {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.carousel::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.carousel-item {
+  gap: 1em;
 }
