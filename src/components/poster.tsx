@@ -1,3 +1,5 @@
+// Main poster component
+
 import joker from '../assets/images/joker.jpg';
 
 function Poster() {
@@ -10,7 +12,10 @@ function Poster() {
         </div>
         <div className="sub-title">24 stories</div>
       </div>
-      <img className="img-poster" src={joker} alt="Joaquin Phoenix" />
+      <div
+        className="img-poster"
+        style={{ backgroundImage: `url(${joker})` }}
+      ></div>
     </div>
   );
 }

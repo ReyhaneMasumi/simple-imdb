@@ -1,3 +1,5 @@
+// Header component with profile picture and welcome message
+
 import { ReactComponent as ProfileIcon } from '../assets/images/Profile-Icon.svg';
 
 function Header() {

@@ -1,3 +1,5 @@
+// This is a component to show movies and user can scroll posters
+
 import { memo } from 'react';
 
 import type { IMovie } from '../types';

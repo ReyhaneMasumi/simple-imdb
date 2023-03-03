@@ -41,6 +41,7 @@
 .sub-title {
   margin: 0;
   color: var(--light-2);
+  font-weight: 600;
 }
 
 .main-poster {
@@ -50,7 +51,11 @@
 }
 
 .img-poster {
+  width: 50%;
   height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .recent-posters {

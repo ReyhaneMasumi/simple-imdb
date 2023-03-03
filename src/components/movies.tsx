@@ -1,3 +1,5 @@
+// Recent Movies component that get information from apis
+
 import { useEffect, useState } from 'react';
 
 import Carousel from './carousel';
@@ -19,10 +21,6 @@ function Movies() {
             ]);
         });
     }
-
-    return () => {
-      setMovies([]);
-    };
   }, []);
 
   return (
