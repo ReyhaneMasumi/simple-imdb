@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.75456368.css",
-    "main.js": "/static/js/main.a5bced68.js",
-    "static/js/787.025d4d4a.chunk.js": "/static/js/787.025d4d4a.chunk.js",
-    "service-worker.js": "/service-worker.js",
-    "static/media/joker.jpg": "/static/media/joker.0226bed644d06d288f18.jpg",
-    "static/media/Profile-Icon.svg": "/static/media/Profile-Icon.253e72015420194fd5875ad7dfe3e31f.svg",
-    "index.html": "/index.html",
-    "main.75456368.css.map": "/static/css/main.75456368.css.map",
-    "main.a5bced68.js.map": "/static/js/main.a5bced68.js.map",
-    "787.025d4d4a.chunk.js.map": "/static/js/787.025d4d4a.chunk.js.map"
+    "main.css": "/simple-imdb/static/css/main.75456368.css",
+    "main.js": "/simple-imdb/static/js/main.bc4b2821.js",
+    "static/js/787.025d4d4a.chunk.js": "/simple-imdb/static/js/787.025d4d4a.chunk.js",
+    "service-worker.js": "/simple-imdb/service-worker.js",
+    "static/media/joker.jpg": "/simple-imdb/static/media/joker.0226bed644d06d288f18.jpg",
+    "static/media/Profile-Icon.svg": "/simple-imdb/static/media/Profile-Icon.253e72015420194fd5875ad7dfe3e31f.svg",
+    "index.html": "/simple-imdb/index.html",
+    "main.75456368.css.map": "/simple-imdb/static/css/main.75456368.css.map",
+    "main.bc4b2821.js.map": "/simple-imdb/static/js/main.bc4b2821.js.map",
+    "787.025d4d4a.chunk.js.map": "/simple-imdb/static/js/787.025d4d4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75456368.css",
-    "static/js/main.a5bced68.js"
+    "static/js/main.bc4b2821.js"
   ]
 }
